@@ -4,12 +4,20 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Dev reading list`,
+    siteHeadline: `Dev reading list`,
+    siteUrl: `https://devreadinglist.com`,
+    siteDescription: `Curated weekly reading list for developers. Weekly reading list about development, technology trends, programming books and articles.`,
+    siteLanguage: `en`,
+    siteImage: `/banner.jpg`,
+    author: `@pyropy_`,
+    siteTitleAlt: `Weekly reading list for devs.`
   },
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       options: {
+
         navigation: [
           {
             title: `Blog`,
@@ -23,11 +31,11 @@ module.exports = {
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/pyropy_`,
           },
           {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/stankovicsrdjan/`,
           },
         ],
       },
@@ -42,9 +50,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `minimal-blog - @lekoarts/gatsby-theme-minimal-blog`,
-        short_name: `minimal-blog`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        name: `Developer reading list.`,
+        short_name: `dev-reading-list`,
+        description: `Dev reading list is blog created with motivation to supply developers with fresh reading ides. These readings include books, papers and articles. If you either want to learn something new or pick-up coding you've came to the right spot.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
