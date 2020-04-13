@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Developer reading list.`,
+        name: `Dev reading list`,
         short_name: `dev-reading-list`,
         description: `Dev reading list is blog created with motivation to supply developers with fresh reading ides. These readings include books, papers and articles. If you either want to learn something new or pick-up coding you've came to the right spot.`,
         start_url: `/`,
