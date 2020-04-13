@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Dev reading list",
+    "short_name": "Dev reading list",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
