@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "minimal-blog",
+  "name": "dev-reading-list",
   "description": "Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.",
   "version": "1.0.10",
-  "author": "LekoArts <hello@lekoarts.de>",
+  "author": "Srdjan Stankovic <stankovic.srdjo@gmail.com>",
   "license": "MIT",
-  "starter-name": "gatsby-starter-minimal-blog",
+  "starter-name": "minimal-blog By LekoArts",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -19,15 +19,19 @@
     "@lekoarts/gatsby-theme-minimal-blog": "^2.2.4",
     "gatsby": "^2.13.3",
     "gatsby-plugin-google-analytics": "^2.1.4",
+    "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-netlify": "^2.1.3",
     "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-postcss": "^2.2.1",
     "gatsby-plugin-sitemap": "^2.2.19",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-notify-toast": "^0.5.1"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8"
+    "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.8",
+    "tailwindcss": "^1.2.0"
   }
 }

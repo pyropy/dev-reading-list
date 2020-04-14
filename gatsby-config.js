@@ -73,6 +73,13 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://devreadinglist.us19.list-manage.com/subscribe/post?u=8446b793deab9434dcdba3256&amp;id=b4e5d22021'
+      }
+    }
     // `gatsby-plugin-webpack-bundle-analyser-v2`,
   ],
 }
