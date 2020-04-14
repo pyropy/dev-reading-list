@@ -23,8 +23,9 @@ const NewsletterForm: React.FunctionComponent<{}> = () => {
         <div>
             <Notification />
             <Styled.h3 sx={{ textAlign: 'center' }}>Get posts delivered to your inbox</Styled.h3>
-            <form onSubmit={handleSubmit} className="m-6 flex justify-center">
-                <input onChange={handleEmailChange} className="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 bg-white"
+            <form name="newsletter-form" onSubmit={handleSubmit} className="m-6 flex justify-center">
+                <label for="email-newsletter"></label>
+                <input onChange={handleEmailChange} name="email-newsletter" className="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 bg-white"
                     sx={{ borderColor: `secondary` }}
                     value={email}
                     placeholder="your@mail.com" />
